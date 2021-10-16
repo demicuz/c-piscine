@@ -18,5 +18,5 @@ char	*ft_strstr(char *str, char *to_find)
 			return (str);
 		str++;
 	}
-	return ((char *)0);
+	return ((char *) 0);
 }

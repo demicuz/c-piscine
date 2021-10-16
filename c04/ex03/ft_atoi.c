@@ -9,7 +9,7 @@ int	ft_isspace(char c)
 
 int	ft_char_to_int(char c)
 {
-	return ((int)(c - '0'));
+	return ((int) (c - '0'));
 }
 
 int	ft_atoi(char *str)
