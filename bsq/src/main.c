@@ -24,7 +24,7 @@ int	ft_read_line(int fd, char *buffer, int size)
 		return (0);
 	i = 0;
 	ret = read(fd, buffer, 1);
-	while (ret && i < size)
+	while (ret >= 0 && i < size)
 	{
 		if (buffer[i] == '\n')
 			break ;
